@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Anonymous Pro, monospace;
+}
+
+.Container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.Header, .Footer-Info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px 0 16px 0;
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.Header-Link, .Footer-Link{
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+.Footer-Link{
+    color: white;
+}
+.Header-Link{
+    color: black;
+}
+.Catalog{
+    padding: 24px 0;
+
+    background: #F1F1F1;
+}
+.Catalog-Header{
+    font-size: 48px;
+    font-weight: 700;
+}
+.Catalog-Content{
+    margin-top: 24px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.Card{
+    width: 370px;
+    border-radius: 12px;
+
+    background: #FFF;
+}
+.Card-Image{
+    max-width: 370px;
+}
+.Card-TextWrapper{
+    padding: 32px 24px;
+}
+
+.Card-Heading{
+    font-size: 26px;
+    font-weight: 700;
+    color: #121723;
+}
+
+.Card-Text{
+    margin-top: 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #121723;
+}
+.Footer{
+    background: #121723;
+}
+.Divider{
+    background: rgba(230, 232, 236, 0.40);
+}
+.Footer-Trademark{
+    padding: 20px;
+
+    text-align: center;
+    
+    color: #A1A6B4;
+
+}
